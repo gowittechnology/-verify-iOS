@@ -9,10 +9,9 @@ typedef void(^VerifyCompletedCallback)(NSURL *fileOuputURL);
 @interface Verify : NSObject
 
 - (void)startRecordingView:(UIView *)view  excludeView:(UIView *)eView onCompletion:(VerifyCompletedCallback)block;
-/**
- Just an alias.
- **/
-- (void)startRecordingView:(UIView *)view withCallback:(VerifyCompletedCallback)callback;
+
+- (id)initWithAppID:(NSString *)applicationID;
+
 /**
  Receiving AppID in lifecycle.
  **/
