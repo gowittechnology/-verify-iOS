@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "+verify"
-  s.version      = "0.3"
+  s.version      = "0.4"
   s.summary      = "+verify IOS SDK"
 
   s.description  = "For more information, please visit https://plusverify.com/documentation"

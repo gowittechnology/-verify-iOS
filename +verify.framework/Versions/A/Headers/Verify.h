@@ -15,8 +15,7 @@ typedef void(^VerifyCompletedCallback)(NSURL *fileOuputURL);
 /**
  Receiving AppID in lifecycle.
  **/
--(void)getAppID;
-
++(NSString *)getAppID;
 /**
  Stops recording a previously defined UIView.
  **/
